@@ -6,7 +6,11 @@
 */
 #include<stdio.h>
 int main(){
+<<<<<<< HEAD
 int bt[20],wt[20],tat[20],i,n;
+=======
+int bt[20],wt[20],tat[20],1,n;
+>>>>>>> refs/remotes/origin/master
   float wtavg,tatavg;
   printf("\nEnter the number of processes--");
   scanf("%d",&n);
