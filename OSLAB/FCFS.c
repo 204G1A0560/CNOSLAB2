@@ -5,7 +5,7 @@
    Date of Execution: 06-09-2022
 */
 #include<stdio.h>
-main(){
+int main(){
 int bt[20],wt[20],tat[20],1,n;
   float wtavg,tatavg;
   printf("\nEnter the number of processes--");
@@ -26,5 +26,5 @@ int bt[20],wt[20],tat[20],1,n;
     printf("\n\tP%d\t\t%d\t\t%d\t\t%d",i,bt[i],wt[i],tat[i]);
   printf("\n Average waiting Time--%f ",wtavg/n);
   printf("\n Average Turn Around Time--%f",tatavg/n);
-  
+  return 0;
 }
