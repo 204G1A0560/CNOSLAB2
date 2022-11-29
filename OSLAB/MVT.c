@@ -10,7 +10,6 @@ int main()
 {
 int ms,mp[10],i,
 temp,n=0; char ch = 'y';
-clrscr();
 printf("\nEnter the total memory available (in Bytes)-- ");
 scanf("%d",&ms);
 temp=ms;
